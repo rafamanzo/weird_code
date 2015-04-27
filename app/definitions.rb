@@ -9,10 +9,3 @@ class Bar
     puts "bar"
   end
 end
-
-def show
-  Foo.new.show
-  Bar.new.show
-end
-
-show
